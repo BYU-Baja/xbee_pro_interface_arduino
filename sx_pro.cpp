@@ -1,5 +1,5 @@
-#include "at_commands.h"
 #include "Arduino.h"
+#include "sx_pro.h"
 
 SXPro::SXPro(int8_t rst, bool lineEnding) {
     pinMode(rst, OUTPUT);

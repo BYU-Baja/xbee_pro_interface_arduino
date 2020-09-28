@@ -1,4 +1,4 @@
-#include "at_commands.h"
+#include <sx_pro.h>
 
 SXPro module = SXPro(9, false);
 
