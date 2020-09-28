@@ -1,5 +1,6 @@
 # xbee_pro_interface_arduino
 Repository that has Arduino code to interface with the XBee SX Pro radio module. Designed to be an Arduino library.
+The module commnicates via a UART port on the Arduino. The code helps with sending AT commands that switch the device into command mode and also change AT registers on the device. It also will contain functions that send data to the radio module to be transmitted to the base station. The actual protocol code will be contained in a seperate repository.
 
 ## Usage
 To install the library in Arduino IDE, follow the instructions below:
